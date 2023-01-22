@@ -11,6 +11,26 @@ body{
     height: 100vh;
 }
 
+.fa-solid{
+    font-size: 30px;
+}
+
+.fa-droplet{
+    color: rgb(0, 106, 255);
+}
+
+.fa-apple-whole{
+    color: rgb(255, 39, 39);
+}
+
+.fa-book{
+    color: yellow;
+}
+
+.fa-capsules{
+    color: green;
+}
+
 header{
     display: flex;
     align-items: center;
