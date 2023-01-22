@@ -38,6 +38,14 @@ button{
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
+
+    transition: 1s;
+}
+
+button:hover{
+    background-color: rgba(217, 127, 255, 0.363);
+    color: white;
+    transition: 1s;
 }
 
 #form-habits{
@@ -102,11 +110,24 @@ input{
     border-radius: 8px;
 
     background: #18181b;
+
+    transition: 1s;
+}
+
+input:hover{
+    background: #2d2d30;
+    border: 2px solid #3b3b40;
 }
 /*pseudo selector*/
 input:checked{
     background: #8b5cf6;
     border: 2px solid #a78bfa;
+    transition: 1s;
+}
+
+input:checked:hover{
+    background: #be5cf6;
+    border: 2px solid #c3affc;
 }
 
 @media (max-width: 570px) {
